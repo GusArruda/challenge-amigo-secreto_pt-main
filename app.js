@@ -1,7 +1,7 @@
 let listaAmigos = [];
 
 function adicionarAmigo(){
-    let amigo = document.getElementById("amigo").value;
+    let amigo = document.getElementById("amigo").value.trim();
     
     if (document.getElementById("amigo").value == ""){
         alert ("Digite um nome!")
